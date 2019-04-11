@@ -31,3 +31,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.Navbar {
+  background-color: transparent;
+  background: rgba(242, 246, 247, 0.322);
+  height: 70px;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   }
+
+.navbutton {  
+   padding: 10px;
+   height:40px; 
+   background-color: transparent;
+   border:transparent;
+   font-size: 1.5em;  
+   color: white;
+font-family:  'Lobster', cursive;
+text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+            #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+ }
