@@ -1,0 +1,80 @@
+.glove {
+    width: 25vw;
+    height: 25vh;
+}
+
+.palmZone {
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#red {
+    fill: red;
+}
+
+#blue {
+    fill: blue;
+}
+
+#green {
+    fill: green;
+}
+
+#orange {
+    fill: orange;
+}
+
+#purple {
+    fill: purple;
+}
+
+#yellow {
+    fill: yellow;
+}
+
+#black {
+    fill: black;
+}
+
+#white {
+    fill: white;
+}
+
+#grey {
+    fill: gray;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.white {
+    background-color: black;
+    color: white;
+}
+
+.grey {
+    color: grey;
+}
