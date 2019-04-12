@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Custom.css'
+import html2canvas from 'html2canvas'
 
 
 export default class Custom extends Component{
@@ -7,13 +8,29 @@ export default class Custom extends Component{
         super()
 
         this.state = {
+            screenCapture: '',
             backZone: 'grey'
         }
     }
+
+    componentDidMount(){
+        this.screenCapture()
+    }
+
+    screenCapture = () => {
+        const image = document.getElementById('glovePhoto')
+        html2canvas(image).then(canvas => {
+            const imgData = canvas.toDataURL('image/png')
+            this.setState({
+                screenCapture: imgData
+            })
+        })
+    }
     
     render(){
+        console.log('Screen Capture: ',this.state.screenCapture)
     return( 
-    <div>  
+    <div id='glovePhoto'>  
        <h1>Custom</h1>
        <div className='glove'>
         {/* Back Zone */}
