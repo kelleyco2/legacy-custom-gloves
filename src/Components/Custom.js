@@ -14,6 +14,9 @@ export default class Custom extends Component{
         }
     }
 
+    //Screen Capture Code
+    //-------------------
+
     // componentDidMount(){
     //     this.screenCapture()
     // }
@@ -29,12 +32,16 @@ export default class Custom extends Component{
     // }
     
     render(){
+        //We should store colors and glove sections in redux to be able to acces them anywhere similar to ZoneColors.js
         let colors = object.colors.map(color => {
             let styles = {
-                backgroundColor:
+                backgroundColor: color,
+                width: '25px',
+                height: '25px',
+                borderRadius: '50%'
             }
             return(
-                <div style={}>
+                <div style={styles}>
 
                 </div>
             )
