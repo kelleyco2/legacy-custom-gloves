@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Custom.css'
 import html2canvas from 'html2canvas'
+import object from './ZonesColors'
 
 
 export default class Custom extends Component{
@@ -13,24 +14,38 @@ export default class Custom extends Component{
         }
     }
 
-    componentDidMount(){
-        this.screenCapture()
-    }
+    // componentDidMount(){
+    //     this.screenCapture()
+    // }
 
-    screenCapture = () => {
-        const image = document.getElementById('glovePhoto')
-        html2canvas(image).then(canvas => {
-            const imgData = canvas.toDataURL('image/png')
-            this.setState({
-                screenCapture: imgData
-            })
-        })
-    }
+    // screenCapture = () => {
+    //     const image = document.getElementById('glovePhoto')
+    //     html2canvas(image).then(canvas => {
+    //         const imgData = canvas.toDataURL('image/png')
+    //         this.setState({
+    //             screenCapture: imgData
+    //         })
+    //     })
+    // }
     
     render(){
-        console.log('Screen Capture: ',this.state.screenCapture)
+        let colors = object.colors.map(color => {
+            let styles = {
+                backgroundColor:
+            }
+            return(
+                <div style={}>
+
+                </div>
+            )
+        })
+        let zones = object.sections.map(section => {
+
+        })
+        // console.log('Screen Capture: ',this.state.screenCapture)
     return( 
     <div id='glovePhoto'>  
+
        <h1>Custom</h1>
        <div className='glove'>
         {/* Back Zone */}
@@ -47,6 +62,11 @@ export default class Custom extends Component{
        <button className='black' onClick={() => this.setState({backZone: 'black'})}>Black</button>
        <button className='white' onClick={() => this.setState({backZone: 'white'})}>White</button>
        <button className='grey' onClick={() => this.setState({backZone: 'grey'})}>Grey</button>
+
+       <div>
+        
+       </div>
+
     </div>    
     )
 }
