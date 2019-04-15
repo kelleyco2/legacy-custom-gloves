@@ -1,5 +1,6 @@
 const initialState = {
-
+    sections: [],
+    colors: []
 }
 
 export default function reducer(state = initialState, action) {
