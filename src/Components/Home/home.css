@@ -1,0 +1,26 @@
+
+
+.banner1{
+    height: 95vh;
+    background-color: white;
+    display: block;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.banner2{
+    height: 95vh;
+    background-color: red;
+    display: block;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.banner3{
+    height: 95vh;
+    background-color:forestgreen;
+    display: block;
+    overflow: hidden;
+    width: 100vw;
+}
+
