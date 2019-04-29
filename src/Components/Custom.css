@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20px 100px 20px;
+}
+
 .glove {
     width: 25vw;
     height: 25vh;
@@ -12,69 +18,80 @@
 
 #red {
     fill: red;
+    stroke: black;
 }
 
-#blue {
-    fill: blue;
+#maroon {
+    fill: maroon;
+    stroke: black;
+}
+
+#royalblue {
+    fill: royalblue;
+    stroke: black;
+}
+
+#navy {
+    fill: navy;
+    stroke: black;
+}
+
+#deepskyblue {
+    fill: deepskyblue;
+    stroke: black;
 }
 
 #green {
     fill: green;
+    stroke: black;
+}
+
+#darkgreen {
+    fill: darkgreen;
+    stroke: black;
 }
 
 #orange {
     fill: orange;
+    stroke: black;
 }
 
 #purple {
     fill: purple;
+    stroke: black;
 }
 
-#yellow {
-    fill: yellow;
+#pink {
+    fill: pink;
+    stroke: black;
+}
+
+#gold {
+    fill: gold;
+    stroke: black;
+}
+
+#blanchedalmond {
+    fill: blanchedalmond;
+    stroke: black;
+}
+
+#saddlebrown {
+    fill: saddlebrown;
+    stroke: black;
 }
 
 #black {
     fill: black;
+    stroke: black;
 }
 
-#white {
-    fill: white;
+#ghostwhite {
+    fill: ghostwhite;
+    stroke: black;
 }
 
-#grey {
-    fill: gray;
-}
-
-.red {
-    color: red;
-}
-
-.blue {
-    color: blue;
-}
-
-.green {
-    color: green;
-}
-
-.orange {
-    color: orange;
-}
-
-.purple {
-    color: purple;
-}
-
-.yellow {
-    color: yellow;
-}
-
-.white {
-    background-color: black;
-    color: white;
-}
-
-.grey {
-    color: grey;
+#dimgray {
+    fill: dimgray;
+    stroke: black;
 }
