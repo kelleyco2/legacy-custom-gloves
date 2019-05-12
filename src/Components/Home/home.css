@@ -1,26 +1,111 @@
 
 
+.mainbannerhome{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw; 
+    /* margin-top: 1.5vw; */
+    margin-bottom: 4vw;
+}
+
 .banner1{
-    height: 95vh;
-    background-color: white;
+    height: 85vh;
+    background-image: linear-gradient(to bottom left, rgb(76, 77, 78),rgb(160, 171, 201));    
+    color: white;
     display: block;
     overflow: hidden;
-    width: 100vw;
+    width: 95.5vw;
+}
+
+.logo_home1{
+    height: 55vh;
+    float: left;
+    margin-left: 12vw;
+    margin-top: 3vh; 
+}
+
+.title-banner1{
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    margin-left: 15vw;
+    margin-top: 65vh;
+}
+
+.subbannershome{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-bottom: 1vw;
 }
 
 .banner2{
-    height: 95vh;
-    background-color: red;
+    height: 85vh;
+    /* background-color: red; */
+    background-image: url( https://static.wixstatic.com/media/62f024_f5ffb86f7d974669ae6b60992fc453c9~mv2_d_2048_1536_s_2.jpg/v1/fill/w_1061,h_796,al_c,q_90,usm_0.66_1.00_0.01/62f024_f5ffb86f7d974669ae6b60992fc453c9~mv2_d_2048_1536_s_2.webp);
+    /* background-size: 58vw 85vh ; */
+    background-size: 120% ;
+
+    margin-right: 1vw;
     display: block;
     overflow: hidden;
-    width: 100vw;
+    width: 49.5vw;
 }
 
 .banner3{
-    height: 95vh;
-    background-color:forestgreen;
+    height: 85vh;
+    /* background-color:forestgreen; */
+    background-image: url(https://static.wixstatic.com/media/62f024_ca48afb0a7044a7b97d64008740f530f~mv2_d_2048_1536_s_2.jpg/v1/fill/w_1061,h_796,al_c,q_90,usm_0.66_1.00_0.01/62f024_ca48afb0a7044a7b97d64008740f530f~mv2_d_2048_1536_s_2.webp );
+    /* background-size: 60vw 85vh ;     */
     display: block;
     overflow: hidden;
-    width: 100vw;
+    width: 49.5vw;
 }
+
+.titlehome{
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw; 
+    margin-top: 10vh;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+    #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+}
+
+.titlehome1{
+    font-size: 3em;
+    color: black;
+    text-align: left;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw; 
+    margin-top: 10vh;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+    #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+}
+
+.ptaghome{
+    font-size: 2em;
+    color: white;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw; 
+    margin-top: 1.5vw;
+    text-align: left;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+    #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+}
+
+.homebutton{
+    height: 10vh;
+    width: 10vw;
+    margin-left: 1.5vW;
+    margin-bottom: 1.5vW;
+    color: White;
+    float: left;
+}
+
+
 
